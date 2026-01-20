@@ -1,12 +1,73 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import ServicesHighlight from "@/components/ServicesHighlight";
+import InterventionProcess from "@/components/InterventionProcess";
+import QuoteFunnelSimple from "@/components/QuoteFunnelSimple";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import Testimonials from "@/components/Testimonials";
+import FAQAccordion from "@/components/FAQAccordion";
+import { MissionBlock, SolutionsBlock, ExpertiseBlock, CoverageBlock, ClientTypesBlock } from "@/components/HomeSEOBlocks";
+import { useSEO } from "@/hooks/useSEO";
+import { getHomePageJsonLd } from "@/data/structuredData";
+import { homeFAQItems, getHomeFAQJsonLd } from "@/data/homeFAQ";
+import HomeCTALinks from "@/components/HomeCTALinks";
 
 const Index = () => {
+  // SEO optimisé pour la page d'accueil
+  useSEO({
+    title: "HD Connect | Expert Sécurité 2025-2026 : Vidéosurveillance, Alarme & Domotique IA",
+    description: "Leader en installation de systèmes de sécurité intelligents 2025-2026. Vidéosurveillance 4K, alarme NF&A2P et domotique IA pour particuliers et entreprises en France.",
+    keywords: "expert sécurité 2025-2026, installation vidéosurveillance France, alarme intelligente IA, domotique maison connectée, HD Connect, sécurité électronique professionnelle",
+    canonicalUrl: "https://hdconnect.fr/",
+  });
+
+  // Données structurées JSON-LD pour la page d'accueil
+  const jsonLdSchemas = getHomePageJsonLd();
+  const faqJsonLd = getHomeFAQJsonLd();
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      {/* JSON-LD Structured Data */}
+      {jsonLdSchemas.map((schema, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+      {/* FAQ JSON-LD for People Also Ask */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <Header />
+      <main>
+        <Hero />
+        <MissionBlock />
+        <Services />
+        {/* CTAs vers Hub Services, Blog et Zones d'intervention */}
+        <HomeCTALinks />
+        <SolutionsBlock />
+        <ClientTypesBlock />
+        <Testimonials />
+        <ExpertiseBlock />
+        <ServicesHighlight />
+        <InterventionProcess />
+        <CoverageBlock />
+        {/* FAQ Section for People Also Ask */}
+        <FAQAccordion 
+          title="Questions Fréquentes sur la Sécurité"
+          subtitle="Retrouvez les réponses aux questions les plus posées sur nos services"
+          items={homeFAQItems}
+        />
+        <QuoteFunnelSimple />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 };
