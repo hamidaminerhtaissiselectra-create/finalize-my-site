@@ -19,7 +19,7 @@ const Hero = () => {
   }, []);
 
 	  const trustBadges = [
-	    { label: "Intervention Rapide 4h", icon: CheckCircle },
+		    { label: "Intervention Rapide", icon: CheckCircle },
 	    { label: "Systèmes IA 2025-2026", icon: CheckCircle },
 	    { label: "Garantie 5 ans & NF&A2P", icon: CheckCircle },
 	  ];
