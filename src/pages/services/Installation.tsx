@@ -35,6 +35,7 @@ import ServiceSchema from "@/components/SEO/ServiceSchema";
 import ServiceShowcase from "@/components/ServiceShowcase";
 
 const Installation = () => {
+  const { installation } = content.pageServices;
   const contactInfo = content.company.contact;
   const { scrollToSection } = useSmoothScroll();
 
@@ -50,30 +51,38 @@ const Installation = () => {
     { name: "Installation", url: "/services/installation" },
   ];
 
-  const faqItems = [
+  const faqItems = installation?.faq || [
     { 
-      question: "Combien de temps dure une installation ?", 
-      answer: "La durée varie selon la complexité du projet : quelques heures pour une maison standard (plusieurs caméras ou alarme), 1-2 jours pour des locaux professionnels. Nous planifions l'intervention pour minimiser la perturbation de votre activité." 
+      question: "Combien de temps dure une installation de système de sécurité ?", 
+      answer: "La durée varie selon la complexité : quelques heures pour une maison standard (jusqu'à 6 caméras ou alarme), 1-2 jours pour des locaux professionnels de 500m². Nous planifions l'intervention pour minimiser la perturbation de votre activité et pouvons travailler en dehors des heures ouvrées." 
     },
     { 
-      question: "L'étude de site est-elle vraiment gratuite ?", 
-      answer: "Oui, l'étude de site est 100% gratuite et sans engagement. Nos techniciens se déplacent pour évaluer vos besoins, identifier les points de vulnérabilité et vous proposer une solution personnalisée avec devis détaillé." 
+      question: "L'étude de site est-elle vraiment gratuite et sans engagement ?", 
+      answer: "Oui, notre audit de sécurité est 100% gratuit et sans engagement. Nos experts se déplacent pour évaluer vos besoins, identifier les points de vulnérabilité, et vous proposer une solution personnalisée avec devis détaillé. Vous êtes libre de comparer avec d'autres offres." 
     },
     { 
-      question: "Quels types de systèmes installez-vous ?", 
-      answer: "Nous installons tous les systèmes de sécurité électronique : vidéosurveillance (IP, HD, 4K), alarmes anti-intrusion (filaires et sans fil), contrôle d'accès (badges, biométrie, interphones), domotique, réseaux et câblage structuré." 
+      question: "Quelles marques de matériel installez-vous ?", 
+      answer: "Nous sommes installateurs certifiés des marques leaders : Hikvision, Dahua, Axis pour la vidéosurveillance ; Ajax, Honeywell, Risco pour les alarmes ; Intratone, CDVI, Salto pour le contrôle d'accès. Nous sélectionnons le matériel le plus adapté à votre projet et votre budget." 
     },
     { 
       question: "Proposez-vous une garantie sur l'installation ?", 
-      answer: "Oui, nos installations sont garanties 5 ans pièces et main d'œuvre. Cette garantie couvre les défauts de fabrication et les problèmes liés à l'installation. Les contrats de maintenance prolongent cette couverture." 
+      answer: "Oui, nos installations sont garanties 5 ans pièces et main d'œuvre. Cette garantie couvre les défauts de fabrication et les problèmes liés à l'installation. Les contrats de maintenance préventive prolongent cette couverture et assurent le bon fonctionnement dans le temps." 
     },
     { 
-      question: "Intervenez-vous dans ma région ?", 
-      answer: "HD Connect intervient sur toute la France métropolitaine. Nous avons des équipes basées en Île-de-France, et dans les principales métropoles (Lyon, Marseille, Bordeaux, etc.) pour une intervention rapide." 
+      question: "Intervenez-vous partout en France ?", 
+      answer: "HD Connect intervient sur toute la France métropolitaine. Nous avons des équipes basées en Île-de-France, Lyon, Marseille, Bordeaux et dans les principales métropoles pour une intervention rapide. Pour les zones rurales, nous garantissons une intervention rapide." 
     },
     { 
-      question: "Fournissez-vous les équipements ou dois-je les acheter ?", 
-      answer: "Nous fournissons et installons les équipements de marques reconnues (Hikvision, Dahua, Ajax, Honeywell, etc.). Le devis inclut le matériel, l'installation, la configuration et la formation à l'utilisation." 
+      question: "Fournissez-vous les équipements ou dois-je les acheter ailleurs ?", 
+      answer: "Nous fournissons et installons les équipements de marques professionnelles. Le devis tout compris inclut : le matériel garanti, l'installation certifiée, la configuration complète, la formation à l'utilisation et le support technique. Vous bénéficiez ainsi d'un interlocuteur unique et d'une garantie globale." 
+    },
+    { 
+      question: "Pouvez-vous reprendre une installation existante d'un autre prestataire ?", 
+      answer: "Oui, nous réalisons régulièrement des audits et reprises d'installations existantes. Nous évaluons l'état du système, proposons des mises à niveau si nécessaire et assurons ensuite la maintenance. La plupart des marques professionnelles sont compatibles avec nos services." 
+    },
+    { 
+      question: "Comment se déroule la formation après installation ?", 
+      answer: "Chaque installation inclut une formation complète : prise en main de l'interface utilisateur, paramétrage des alertes, utilisation de l'application mobile, gestion des codes d'accès. Nous remettons une documentation et restons disponibles par téléphone pour toute question ultérieure." 
     },
   ];
 

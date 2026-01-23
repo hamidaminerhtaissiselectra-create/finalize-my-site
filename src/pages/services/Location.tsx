@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { content } from "@/data/content";
 import { usePhoneCall } from "@/hooks/usePhoneCall";
 import { Package, Clock, Calendar, CheckCircle, Shield, Award, Zap, Users, MapPin, Truck, Building2, PartyPopper, HardHat, Camera, Lock, Settings, Phone, FileText, ArrowRight, Star, BadgeCheck, Euro, TrendingUp, AlertTriangle, Wrench, Sun, Battery, Wifi, Eye } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -34,6 +35,7 @@ import galleryLocationEvent from "@/assets/gallery-location-event.webp";
 import galleryLocationKit from "@/assets/gallery-location-kit.webp";
 
 const Location = () => {
+  const { location } = content.pageServices;
   const { phoneNumber, callUrl } = usePhoneCall();
   const { scrollToSection } = useSmoothScroll();
 
@@ -49,38 +51,38 @@ const Location = () => {
     { name: "Location", url: "/services/location" },
   ];
 
-  const faqItems = [
+  const faqItems = location?.faq || [
     { 
       question: "Quelle est la durée minimale de location ?", 
-      answer: "La durée minimale est d'une journée pour les événements ponctuels. Pour les chantiers, nous proposons des forfaits à la semaine ou au mois avec des tarifs dégressifs. La durée est flexible et adaptable à vos besoins. Pour les locations de plus de 6 mois, nous proposons des remises allant jusqu'à 40%." 
+      answer: "La durée minimale est d'une journée pour les événements. Pour les chantiers, nous proposons des forfaits à la semaine ou au mois avec tarifs dégressifs (-15% après 1 mois, -25% après 3 mois, -40% après 6 mois). La durée est 100% flexible et sans engagement de renouvellement." 
     },
     { 
       question: "L'installation et le retrait sont-ils inclus dans le prix ?", 
-      answer: "Oui, nos techniciens certifiés assurent la livraison, l'installation, la configuration complète et le retrait du matériel. Le prix de location inclut ces prestations ainsi que le support technique 24/7 pendant toute la durée de la location. Aucun frais caché." 
+      answer: "Oui, le prix de location inclut la livraison, l'installation par nos techniciens certifiés, la configuration complète, la formation express, le support technique 24/7 et le retrait en fin de location. Aucun frais caché, tout est compris dans le tarif annoncé." 
     },
     { 
-      question: "Le matériel est-il assuré en cas de vol ou dégradation ?", 
-      answer: "Oui, notre matériel est couvert par une assurance tous risques. En cas de vol (avec dépôt de plainte) ou dégradation accidentelle, une franchise raisonnable s'applique (généralement 10% de la valeur). Nous proposons également une option d'assurance complémentaire sans franchise pour une tranquillité totale." 
+      question: "Le matériel est-il assuré en cas de vol ou casse ?", 
+      answer: "Oui, notre matériel est couvert par une assurance tous risques. En cas de vol (avec dépôt de plainte) ou dégradation accidentelle, une franchise de 10% de la valeur s'applique. Option assurance sans franchise disponible (+15% du tarif de location)." 
     },
     { 
-      question: "Puis-je surveiller mon chantier à distance pendant la location ?", 
-      answer: "Absolument ! Tous nos systèmes de vidéosurveillance en location sont configurés avec accès distant via application mobile (iOS/Android) ou navigateur web. Vous pouvez visualiser les images en direct, recevoir des alertes push en cas de détection de mouvement et télécharger les enregistrements. La connexion 4G/5G est incluse pour les sites sans internet." 
+      question: "Puis-je surveiller mon chantier à distance en temps réel ?", 
+      answer: "Absolument ! Tous nos systèmes de location sont configurés avec accès distant via application mobile (iOS/Android) et navigateur web. Visualisation en direct, alertes push, téléchargement des enregistrements : tout est inclus. La connexion 4G/5G est fournie pour les sites sans internet." 
     },
     { 
-      question: "Proposez-vous la location avec option d'achat (LOA) ?", 
-      answer: "Oui, nous proposons des formules de location avec option d'achat. À la fin de la période de location (minimum 6 mois), vous pouvez acquérir le matériel à prix réduit (jusqu'à -30% sur le prix neuf). Idéal pour tester un système avant de vous engager définitivement. Les loyers versés sont déduits du prix d'achat." 
+      question: "Les caméras solaires fonctionnent-elles vraiment sans électricité ?", 
+      answer: "Oui, nos caméras autonomes combinent panneaux solaires haute efficacité et batteries lithium longue durée (7 jours d'autonomie sans soleil). Transmission 4G intégrée pour les images en temps réel. Solution idéale pour chantiers, zones agricoles ou sites isolés sans raccordement électrique." 
     },
     { 
-      question: "Quels types d'équipements proposez-vous à la location ?", 
-      answer: "Notre catalogue de location comprend : caméras de surveillance (fixes, dômes, PTZ, thermiques), systèmes d'alarme portables Grade 2, kits de contrôle d'accès temporaires (badges, lecteurs, barrières), bornes escamotables, solutions de vidéoprotection 100% autonomes avec panneau solaire et batterie, enregistreurs NVR/DVR et écrans de visualisation." 
+      question: "Proposez-vous la location avec option d'achat ?", 
+      answer: "Oui, après 6 mois de location minimum, vous pouvez acquérir le matériel à prix réduit (jusqu'à -30% sur le neuf). Les loyers versés sont partiellement déduits du prix d'achat. Idéal pour tester un système avant engagement définitif." 
     },
     { 
-      question: "Les caméras autonomes fonctionnent-elles vraiment sans électricité ?", 
-      answer: "Oui, nos caméras autonomes sont équipées de panneaux solaires haute performance et de batteries lithium longue durée (jusqu'à 7 jours d'autonomie sans soleil). Elles intègrent une connexion 4G pour la transmission des images en temps réel. Solution idéale pour les chantiers isolés, les zones agricoles ou les sites en construction sans raccordement électrique." 
+      question: "Quel est le délai d'installation pour une location ?", 
+      answer: "En Île-de-France : intervention possible en quelques heures pour les urgences, sinon rapidement en standard. Autres régions : intervention rapide. Pour les projets planifiés à l'avance, nous garantissons la disponibilité du matériel à la date convenue." 
     },
     { 
-      question: "Quel est le délai d'installation après la commande ?", 
-      answer: "En Île-de-France, nous pouvons intervenir rapidement pour les demandes urgentes. Pour les autres régions, comptez rapidement. Les projets planifiés à l'avance bénéficient d'une coordination optimale. Contactez-nous pour une intervention express en cas d'urgence sécuritaire." 
+      question: "Quels équipements proposez-vous en location ?", 
+      answer: "Notre catalogue : caméras de surveillance (fixes, dômes, PTZ, thermiques), systèmes 100% autonomes solaires, alarmes portables Grade 2, kits de contrôle d'accès temporaires, barrières de chantier, enregistreurs NVR avec écrans de visualisation. Tout le matériel professionnel pour une sécurité temporaire efficace." 
     },
   ];
 
