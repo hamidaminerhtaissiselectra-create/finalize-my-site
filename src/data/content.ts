@@ -274,6 +274,68 @@ export const content = {
         { question: "Les barrières de parking sont-elles adaptées à un usage intensif ?", answer: "Oui, nos barrières professionnelles sont conçues pour un usage intensif (jusqu'à 3000 cycles/jour) avec temps d'ouverture de 1 à 3 secondes. Idéal pour les parkings d'entreprise, centres commerciaux et résidences." },
       ],
     },
+    // Installation - FAQ pour cohérence
+    installation: {
+      title: "Installation Professionnelle de Sécurité",
+      description: "Nos techniciens certifiés assurent l'installation complète de tous vos systèmes de sécurité électronique. De l'étude gratuite à la mise en service, nous garantissons un travail soigné et conforme aux normes en vigueur.",
+      features: [
+        "Étude de site gratuite et sans engagement",
+        "Techniciens certifiés multi-marques",
+        "Installation propre et soignée",
+        "Configuration complète et formation incluse",
+      ],
+      faq: [
+        { question: "Combien de temps dure une installation de système de sécurité ?", answer: "La durée varie selon la complexité : quelques heures pour une maison standard (jusqu'à 6 caméras ou alarme), 1-2 jours pour des locaux professionnels de 500m². Nous planifions l'intervention pour minimiser la perturbation de votre activité et pouvons travailler en dehors des heures ouvrées." },
+        { question: "L'étude de site est-elle vraiment gratuite et sans engagement ?", answer: "Oui, notre audit de sécurité est 100% gratuit et sans engagement. Nos experts se déplacent pour évaluer vos besoins, identifier les points de vulnérabilité, et vous proposer une solution personnalisée avec devis détaillé. Vous êtes libre de comparer avec d'autres offres." },
+        { question: "Quelles marques de matériel installez-vous ?", answer: "Nous sommes installateurs certifiés des marques leaders : Hikvision, Dahua, Axis pour la vidéosurveillance ; Ajax, Honeywell, Risco pour les alarmes ; Intratone, CDVI, Salto pour le contrôle d'accès. Nous sélectionnons le matériel le plus adapté à votre projet et votre budget." },
+        { question: "Proposez-vous une garantie sur l'installation ?", answer: "Oui, nos installations sont garanties 5 ans pièces et main d'œuvre. Cette garantie couvre les défauts de fabrication et les problèmes liés à l'installation. Les contrats de maintenance préventive prolongent cette couverture et assurent le bon fonctionnement dans le temps." },
+        { question: "Intervenez-vous partout en France ?", answer: "HD Connect intervient sur toute la France métropolitaine. Nous avons des équipes basées en Île-de-France, Lyon, Marseille, Bordeaux et dans les principales métropoles pour une intervention rapide. Pour les zones rurales, nous garantissons une intervention rapide." },
+        { question: "Fournissez-vous les équipements ou dois-je les acheter ailleurs ?", answer: "Nous fournissons et installons les équipements de marques professionnelles. Le devis tout compris inclut : le matériel garanti, l'installation certifiée, la configuration complète, la formation à l'utilisation et le support technique. Vous bénéficiez ainsi d'un interlocuteur unique et d'une garantie globale." },
+        { question: "Pouvez-vous reprendre une installation existante d'un autre prestataire ?", answer: "Oui, nous réalisons régulièrement des audits et reprises d'installations existantes. Nous évaluons l'état du système, proposons des mises à niveau si nécessaire et assurons ensuite la maintenance. La plupart des marques professionnelles sont compatibles avec nos services." },
+        { question: "Comment se déroule la formation après installation ?", answer: "Chaque installation inclut une formation complète : prise en main de l'interface utilisateur, paramétrage des alertes, utilisation de l'application mobile, gestion des codes d'accès. Nous remettons une documentation et restons disponibles par téléphone pour toute question ultérieure." },
+      ],
+    },
+    // Dépannage - FAQ pour cohérence
+    depannage: {
+      title: "Dépannage et Réparation Express",
+      description: "Notre service de dépannage intervient rapidement en cas de panne de votre système de sécurité. Disponibles 24/7, nos techniciens multi-marques diagnostiquent et réparent tous types d'équipements : alarmes, caméras, contrôle d'accès.",
+      features: [
+        "Intervention express en Île-de-France",
+        "Diagnostic téléphonique gratuit",
+        "Techniciens formés toutes marques",
+        "Pièces d'origine garanties",
+      ],
+      faq: [
+        { question: "Intervenez-vous en urgence 24h/24 et 7j/7 ?", answer: "Oui, notre service d'urgence est disponible 24h/24, 7j/7, y compris les nuits, week-ends et jours fériés. Pour les pannes critiques (système de sécurité totalement hors service), appelez notre numéro d'astreinte. Nous intervenons rapidement en Île-de-France et sous 24h dans les autres régions." },
+        { question: "Le diagnostic téléphonique est-il vraiment gratuit ?", answer: "Oui, le pré-diagnostic par téléphone est toujours gratuit. Nos experts tentent d'abord de résoudre votre problème à distance (réinitialisation, paramétrage). Si une intervention sur site est nécessaire, le diagnostic sur place est facturé mais intégralement déduit du montant de la réparation effectuée." },
+        { question: "Dépannez-vous les systèmes que vous n'avez pas installés ?", answer: "Oui, nous intervenons sur tous les systèmes de sécurité, quelle que soit la marque ou l'installateur d'origine. Notre équipe est formée sur les principales marques du marché : Hikvision, Dahua, Axis, Ajax, Honeywell, DSC, Paradox, Risco, Intratone, etc." },
+        { question: "Combien coûte un dépannage en moyenne ?", answer: "Le coût dépend de la complexité de la panne. Un déplacement avec diagnostic coûte environ 89€ HT en Île-de-France. Les réparations courantes (remplacement détecteur, reconfiguration) varient de 150€ à 350€. Un devis précis est établi avant toute intervention non urgente." },
+        { question: "Proposez-vous des contrats pour éviter les pannes ?", answer: "Oui, nous proposons des contrats de maintenance préventive qui réduisent considérablement les risques de panne. Ces contrats incluent 1 à 2 visites annuelles de contrôle, les mises à jour logicielles, et une priorité d'intervention avec tarifs préférentiels en cas de dépannage." },
+        { question: "Que se passe-t-il si vous ne pouvez pas réparer ?", answer: "Si le matériel est irréparable, nous vous proposons un remplacement à tarif préférentiel avec installation incluse. Pour les équipements sous garantie constructeur, nous gérons le retour SAV et le prêt de matériel de remplacement si possible." },
+        { question: "Fournissez-vous un rapport d'intervention ?", answer: "Oui, chaque intervention donne lieu à un rapport détaillé : description de la panne, diagnostic effectué, réparation réalisée, pièces remplacées et recommandations de maintenance. Ce document est utile pour votre assurance et le suivi de vos équipements." },
+      ],
+    },
+    // Location - FAQ pour cohérence
+    location: {
+      title: "Location de Matériel de Sécurité",
+      description: "Louez du matériel de sécurité professionnel pour vos chantiers, événements ou besoins temporaires. Caméras autonomes solaires, kits d'alarme portables, systèmes de vidéosurveillance 4G : tout le matériel est livré, installé et configuré par nos soins.",
+      features: [
+        "Équipement professionnel dernière génération",
+        "Installation et retrait inclus",
+        "Durée flexible de 1 jour à 24 mois",
+        "Support technique 24/7 pendant la location",
+      ],
+      faq: [
+        { question: "Quelle est la durée minimale de location ?", answer: "La durée minimale est d'une journée pour les événements. Pour les chantiers, nous proposons des forfaits à la semaine ou au mois avec tarifs dégressifs (-15% après 1 mois, -25% après 3 mois, -40% après 6 mois). La durée est 100% flexible et sans engagement de renouvellement." },
+        { question: "L'installation et le retrait sont-ils inclus dans le prix ?", answer: "Oui, le prix de location inclut la livraison, l'installation par nos techniciens certifiés, la configuration complète, la formation express, le support technique 24/7 et le retrait en fin de location. Aucun frais caché, tout est compris dans le tarif annoncé." },
+        { question: "Le matériel est-il assuré en cas de vol ou casse ?", answer: "Oui, notre matériel est couvert par une assurance tous risques. En cas de vol (avec dépôt de plainte) ou dégradation accidentelle, une franchise de 10% de la valeur s'applique. Option assurance sans franchise disponible (+15% du tarif de location)." },
+        { question: "Puis-je surveiller mon chantier à distance en temps réel ?", answer: "Absolument ! Tous nos systèmes de location sont configurés avec accès distant via application mobile (iOS/Android) et navigateur web. Visualisation en direct, alertes push, téléchargement des enregistrements : tout est inclus. La connexion 4G/5G est fournie pour les sites sans internet." },
+        { question: "Les caméras solaires fonctionnent-elles vraiment sans électricité ?", answer: "Oui, nos caméras autonomes combinent panneaux solaires haute efficacité et batteries lithium longue durée (7 jours d'autonomie sans soleil). Transmission 4G intégrée pour les images en temps réel. Solution idéale pour chantiers, zones agricoles ou sites isolés sans raccordement électrique." },
+        { question: "Proposez-vous la location avec option d'achat ?", answer: "Oui, après 6 mois de location minimum, vous pouvez acquérir le matériel à prix réduit (jusqu'à -30% sur le neuf). Les loyers versés sont partiellement déduits du prix d'achat. Idéal pour tester un système avant engagement définitif." },
+        { question: "Quel est le délai d'installation pour une location ?", answer: "En Île-de-France : intervention possible en quelques heures pour les urgences, sinon rapidement en standard. Autres régions : intervention rapide. Pour les projets planifiés à l'avance, nous garantissons la disponibilité du matériel à la date convenue." },
+        { question: "Quels équipements proposez-vous en location ?", answer: "Notre catalogue : caméras de surveillance (fixes, dômes, PTZ, thermiques), systèmes 100% autonomes solaires, alarmes portables Grade 2, kits de contrôle d'accès temporaires, barrières de chantier, enregistreurs NVR avec écrans de visualisation. Tout le matériel professionnel pour une sécurité temporaire efficace." },
+      ],
+    },
   },
 
   // --- Mentions Légales et Politique de Confidentialité ---

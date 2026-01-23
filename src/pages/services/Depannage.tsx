@@ -35,6 +35,7 @@ import galleryDepannageRepair from "@/assets/gallery-depannage-repair.webp";
 import galleryDepannageVan from "@/assets/gallery-depannage-van.webp";
 
 const Depannage = () => {
+  const { depannage } = content.pageServices;
   const contactInfo = content.company.contact;
   const { scrollToSection } = useSmoothScroll();
 
@@ -50,30 +51,34 @@ const Depannage = () => {
     { name: "Dépannage", url: "/services/depannage" },
   ];
 
-  const faqItems = [
+  const faqItems = depannage?.faq || [
     { 
-      question: "Intervenez-vous la nuit et le week-end ?", 
-      answer: "Oui, notre service de dépannage est disponible 24h/24, 7j/7, y compris les nuits, week-ends et jours fériés. En cas d'urgence, appelez notre numéro d'astreinte pour une intervention rapide." 
+      question: "Intervenez-vous en urgence 24h/24 et 7j/7 ?", 
+      answer: "Oui, notre service d'urgence est disponible 24h/24, 7j/7, y compris les nuits, week-ends et jours fériés. Pour les pannes critiques (système de sécurité totalement hors service), appelez notre numéro d'astreinte. Nous intervenons rapidement en Île-de-France et sous 24h dans les autres régions." 
     },
     { 
-      question: "Quel est le délai d'intervention en urgence ?", 
-      answer: "En Île-de-France, nous intervenons Urgence maximum en cas d'urgence. Pour les autres régions, le délai est rapide selon votre localisation et la disponibilité de nos équipes." 
+      question: "Le diagnostic téléphonique est-il vraiment gratuit ?", 
+      answer: "Oui, le pré-diagnostic par téléphone est toujours gratuit. Nos experts tentent d'abord de résoudre votre problème à distance (réinitialisation, paramétrage). Si une intervention sur site est nécessaire, le diagnostic sur place est facturé mais intégralement déduit du montant de la réparation effectuée." 
     },
     { 
-      question: "Le diagnostic est-il payant ?", 
-      answer: "Non, le diagnostic téléphonique est toujours gratuit. Nous essayons d'abord de résoudre votre problème à distance. Si une intervention sur site est nécessaire, le diagnostic sur place est facturé mais déduit du montant de la réparation." 
+      question: "Dépannez-vous les systèmes que vous n'avez pas installés ?", 
+      answer: "Oui, nous intervenons sur tous les systèmes de sécurité, quelle que soit la marque ou l'installateur d'origine. Notre équipe est formée sur les principales marques du marché : Hikvision, Dahua, Axis, Ajax, Honeywell, DSC, Paradox, Risco, Intratone, etc." 
     },
     { 
-      question: "Réparez-vous les systèmes installés par d'autres ?", 
-      answer: "Oui, nous intervenons sur tous les systèmes, quelle que soit la marque ou l'installateur d'origine. Notre équipe est formée sur les principales marques du marché (Hikvision, Dahua, Ajax, Honeywell, etc.)." 
+      question: "Combien coûte un dépannage en moyenne ?", 
+      answer: "Le coût dépend de la complexité de la panne. Un déplacement avec diagnostic coûte environ 89€ HT en Île-de-France. Les réparations courantes (remplacement détecteur, reconfiguration) varient de 150€ à 350€. Un devis précis est établi avant toute intervention non urgente." 
     },
     { 
-      question: "Comment être sûr que la panne ne reviendra pas ?", 
-      answer: "Nous identifions la cause racine de chaque panne et ne nous contentons pas de traiter les symptômes. Après chaque intervention, nous vous remettons un rapport détaillé et des recommandations pour éviter les récidives." 
+      question: "Proposez-vous des contrats pour éviter les pannes ?", 
+      answer: "Oui, nous proposons des contrats de maintenance préventive qui réduisent considérablement les risques de panne. Ces contrats incluent 1 à 2 visites annuelles de contrôle, les mises à jour logicielles, et une priorité d'intervention avec tarifs préférentiels en cas de dépannage." 
     },
     { 
-      question: "Proposez-vous des contrats de maintenance préventive ?", 
-      answer: "Oui, nous proposons des contrats de maintenance annuels qui incluent des visites préventives régulières, des mises à jour et une priorité d'intervention en cas de panne. Consultez notre page Maintenance pour plus de détails." 
+      question: "Que se passe-t-il si vous ne pouvez pas réparer ?", 
+      answer: "Si le matériel est irréparable, nous vous proposons un remplacement à tarif préférentiel avec installation incluse. Pour les équipements sous garantie constructeur, nous gérons le retour SAV et le prêt de matériel de remplacement si possible." 
+    },
+    { 
+      question: "Fournissez-vous un rapport d'intervention ?", 
+      answer: "Oui, chaque intervention donne lieu à un rapport détaillé : description de la panne, diagnostic effectué, réparation réalisée, pièces remplacées et recommandations de maintenance. Ce document est utile pour votre assurance et le suivi de vos équipements." 
     },
   ];
 
