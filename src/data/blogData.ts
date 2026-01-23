@@ -1,5 +1,12 @@
 // Données du blog HD Connect - Articles SEO optimisés
 
+// Import des images de blog
+import blogInstallationVideosurveillance from "@/assets/blog-installation-videosurveillance.webp";
+import blogAlarmeMaisonGuide from "@/assets/blog-alarme-maison-guide.webp";
+import blogControleAccesEntreprise from "@/assets/blog-controle-acces-entreprise.webp";
+import blogNvrInstallationPro from "@/assets/blog-nvr-installation-pro.webp";
+import blogSecuriteCommerce from "@/assets/blog-securite-commerce.webp";
+
 export interface BlogArticle {
   id: string;
   slug: string;
@@ -38,6 +45,944 @@ export const blogCategories: { slug: BlogCategory; name: string; description: st
 ];
 
 export const blogArticles: BlogArticle[] = [
+  // ===== NOUVEAUX ARTICLES SEO 2026 =====
+  {
+    id: "7",
+    slug: "installation-videosurveillance-maison-guide-complet-2026",
+    title: "Installation Vidéosurveillance Maison : Le Guide Complet 2026",
+    excerpt: "Comment installer un système de vidéosurveillance chez soi en 2026 ? Découvrez les étapes clés, le matériel nécessaire et les erreurs à éviter pour une installation réussie.",
+    content: `
+## Pourquoi installer la vidéosurveillance chez soi en 2026 ?
+
+La vidéosurveillance domestique n'est plus réservée aux grandes propriétés. En 2026, les systèmes sont devenus accessibles, performants et simples à installer. Voici tout ce que vous devez savoir pour protéger efficacement votre domicile.
+
+## Les différents types de systèmes
+
+### Caméras IP WiFi
+
+Les caméras WiFi sont les plus populaires pour les particuliers :
+
+- **Installation facile** : pas de câblage réseau nécessaire
+- **Accès smartphone** : visualisation en temps réel depuis n'importe où
+- **Stockage cloud** : enregistrements sécurisés en ligne
+- **Prix accessible** : à partir de 50€ par caméra
+
+### Système PoE professionnel
+
+Pour une fiabilité maximale, optez pour le PoE (Power over Ethernet) :
+
+- **Connexion filaire stable** : pas de coupure WiFi
+- **Alimentation par câble** : un seul câble pour tout
+- **Qualité d'image supérieure** : bande passante garantie
+- **NVR centralisé** : gestion professionnelle des enregistrements
+
+### Caméras 4G/5G autonomes
+
+Idéales pour les résidences secondaires ou zones sans internet :
+
+- **Totalement autonomes** : connexion cellulaire intégrée
+- **Panneau solaire** : alimentation sans électricité
+- **Alertes instantanées** : notifications push en temps réel
+
+## Combien de caméras installer ?
+
+### Maison individuelle (100-150m²)
+
+Configuration recommandée : **4 à 6 caméras**
+
+1. **Entrée principale** : identification des visiteurs
+2. **Jardin/Terrasse** : surveillance périmétrique
+3. **Garage** : protection des véhicules
+4. **Entrée arrière** : point d'accès secondaire
+5. **Allée** : détection précoce
+
+### Appartement
+
+Configuration recommandée : **2 à 3 caméras**
+
+1. **Porte d'entrée** : sonnette vidéo ou caméra couloir
+2. **Balcon/Terrasse** : si accessible
+3. **Pièce principale** : vision d'ensemble (optionnel)
+
+## Le matériel indispensable
+
+### Pour les débutants (Kit WiFi)
+
+| Élément | Prix moyen | Utilité |
+|---------|-----------|---------|
+| Kit 4 caméras WiFi | 200-400€ | Surveillance complète |
+| Carte SD ou abonnement cloud | 0-10€/mois | Stockage |
+| Application smartphone | Gratuit | Contrôle à distance |
+
+### Pour les pros (Système PoE)
+
+| Élément | Prix moyen | Utilité |
+|---------|-----------|---------|
+| NVR 8 voies | 150-300€ | Enregistrement centralisé |
+| Caméras PoE 4K (x4) | 400-800€ | Qualité image optimale |
+| Switch PoE | 80-150€ | Alimentation caméras |
+| Disque dur 4To | 100-150€ | Stockage local |
+| Câbles RJ45 | 50-100€ | Connexion fiable |
+
+## Les 7 erreurs à éviter
+
+### 1. Mauvais positionnement
+
+- Évitez les contre-jours (soleil face à la caméra)
+- Visez les points d'entrée, pas les zones de passage
+- Hauteur idéale : 2,5 à 3 mètres
+
+### 2. Réseau WiFi insuffisant
+
+- Testez la couverture avant installation
+- Ajoutez des répéteurs si nécessaire
+- Privilégiez le WiFi 5GHz ou le filaire
+
+### 3. Stockage sous-dimensionné
+
+- Prévoyez minimum 1To par caméra en 4K
+- Optez pour des disques surveillances (Purple WD)
+- Configurez l'écrasement automatique
+
+### 4. Négliger l'éclairage
+
+- Les caméras IR ont une portée limitée (20-30m)
+- Ajoutez un éclairage extérieur avec détecteur
+- Optez pour des caméras avec spotlight intégré
+
+### 5. Oublier l'alimentation de secours
+
+- Installez un onduleur (UPS) pour le NVR
+- Choisissez des caméras avec batterie de secours
+- Prévoyez une alerte en cas de coupure
+
+### 6. Ignorer la cybersécurité
+
+- Changez les mots de passe par défaut
+- Activez le chiffrement des flux
+- Mettez à jour régulièrement le firmware
+
+### 7. Non-conformité RGPD
+
+- N'orientez pas les caméras vers la voie publique
+- Affichez un panneau d'information
+- Limitez la conservation à 30 jours maximum
+
+## Installation étape par étape
+
+### Étape 1 : Planification (1-2h)
+
+1. Faites le tour de votre propriété
+2. Identifiez les points vulnérables
+3. Dessinez un plan avec les emplacements
+4. Vérifiez la couverture WiFi ou prévoyez le câblage
+
+### Étape 2 : Installation physique (2-4h)
+
+1. Percez les supports de fixation
+2. Passez les câbles si nécessaire
+3. Fixez les caméras solidement
+4. Orientez-les vers les zones à surveiller
+
+### Étape 3 : Configuration (1-2h)
+
+1. Connectez le NVR ou configurez le cloud
+2. Ajoutez chaque caméra à l'application
+3. Réglez les zones de détection
+4. Configurez les alertes
+
+### Étape 4 : Tests (30min)
+
+1. Testez la vision de jour et de nuit
+2. Vérifiez les zones de détection
+3. Testez les notifications
+4. Vérifiez l'accès à distance
+
+## Faire appel à un professionnel : quand et pourquoi ?
+
+### Avantages de l'installation pro
+
+- **Garantie de résultat** : configuration optimale
+- **Conformité** : respect du RGPD et des normes
+- **SAV inclus** : dépannage et maintenance
+- **Conseils d'expert** : choix du matériel adapté
+
+### Budget installation professionnelle
+
+| Type d'installation | Fourchette de prix |
+|--------------------|-------------------|
+| Kit 4 caméras WiFi | 800-1 500€ |
+| Système PoE 6 caméras | 2 000-3 500€ |
+| Installation haut de gamme | 4 000-8 000€ |
+
+## Conclusion
+
+L'installation d'un système de vidéosurveillance est un investissement pour votre sécurité. Que vous optiez pour une installation DIY ou professionnelle, HD Connect vous accompagne dans votre projet avec des conseils personnalisés et une installation dans les règles de l'art.
+
+**Contactez-nous pour un devis gratuit et personnalisé !**
+    `,
+    category: "videosurveillance",
+    tags: ["installation", "vidéosurveillance", "maison", "caméra", "sécurité", "2026", "guide"],
+    author: "HD Connect",
+    publishedAt: "2026-01-20",
+    updatedAt: "2026-01-20",
+    readingTime: 12,
+    featured: true,
+    image: blogInstallationVideosurveillance,
+    seoTitle: "Installation Vidéosurveillance Maison 2026 : Guide Complet | HD Connect",
+    seoDescription: "Guide complet installation vidéosurveillance maison 2026 : choix caméras, positionnement, configuration, erreurs à éviter. Devis gratuit HD Connect."
+  },
+  {
+    id: "8",
+    slug: "alarme-maison-sans-fil-guide-achat-2026",
+    title: "Alarme Maison Sans Fil : Guide d'Achat Complet 2026",
+    excerpt: "Quelle alarme sans fil choisir pour protéger votre maison en 2026 ? Comparatif des meilleures marques, fonctionnalités essentielles et conseils d'installation.",
+    content: `
+## L'alarme sans fil en 2026 : une protection intelligente
+
+Les systèmes d'alarme sans fil ont révolutionné la protection des domiciles. Plus besoin de percer les murs ou de tirer des câbles : l'installation est simple et les fonctionnalités sont de plus en plus avancées.
+
+## Pourquoi choisir une alarme sans fil ?
+
+### Les avantages clés
+
+- **Installation rapide** : 2 à 4 heures pour un système complet
+- **Aucune dégradation** : pas de câbles apparents ni de travaux
+- **Évolutivité** : ajoutez des détecteurs facilement
+- **Déménagement possible** : emportez votre système
+- **Prix compétitif** : à partir de 200€ pour un kit de base
+
+### Les inconvénients à connaître
+
+- **Batteries à remplacer** : tous les 2 à 5 ans selon les modèles
+- **Portée limitée** : 100 à 300 mètres selon les centrales
+- **Risque de brouillage** : optez pour les systèmes anti-jamming
+
+## Les critères de choix essentiels
+
+### 1. La certification NF&A2P
+
+C'est LA garantie de qualité en France :
+
+- **NF&A2P Bouclier 1** : niveau de base (cambrioleurs opportunistes)
+- **NF&A2P Bouclier 2** : niveau intermédiaire (cambrioleurs confirmés)
+- **NF&A2P Bouclier 3** : niveau professionnel (haute sécurité)
+
+**Notre conseil** : privilégiez au minimum le niveau Bouclier 2 pour une maison.
+
+### 2. Les moyens de communication
+
+Une alarme doit pouvoir vous prévenir en cas d'intrusion :
+
+| Technologie | Avantages | Inconvénients |
+|-------------|-----------|---------------|
+| GSM/4G | Fonctionne sans internet | Coût de la SIM |
+| WiFi | Gratuit, rapide | Dépend du réseau |
+| RTC (téléphone fixe) | Fiable | Technologie obsolète |
+| Double voie (GSM+WiFi) | Sécurité maximale | Plus cher |
+
+**Notre conseil** : optez pour une double voie GSM + WiFi.
+
+### 3. La détection périmétrique
+
+Détectez l'intrus AVANT qu'il n'entre :
+
+- **Détecteurs d'ouverture** : portes et fenêtres
+- **Détecteurs de mouvement extérieurs** : jardin, terrasse
+- **Barrières infrarouges** : périmètre complet
+- **Détecteurs de bris de vitre** : complémentaires
+
+### 4. Les fonctionnalités connectées
+
+En 2026, une bonne alarme doit proposer :
+
+- **Application smartphone** : contrôle total à distance
+- **Notifications push** : alertes instantanées
+- **Historique des événements** : traçabilité complète
+- **Géolocalisation** : armement/désarmement automatique
+- **Intégration domotique** : compatibilité avec votre écosystème
+
+## Top 5 des alarmes sans fil 2026
+
+### 1. Diagral (Made in France)
+
+- **Points forts** : fiabilité, SAV France, NF&A2P
+- **Points faibles** : prix élevé, design classique
+- **Prix kit complet** : 800 à 1 500€
+- **Idéal pour** : ceux qui veulent du haut de gamme français
+
+### 2. Ajax Systems
+
+- **Points forts** : design moderne, app excellente, anti-jamming
+- **Points faibles** : pas de certification NF&A2P
+- **Prix kit complet** : 500 à 1 200€
+- **Idéal pour** : les technophiles
+
+### 3. Somfy Protect
+
+- **Points forts** : écosystème complet, caméras intégrées
+- **Points faibles** : dépendant du cloud
+- **Prix kit complet** : 400 à 900€
+- **Idéal pour** : les utilisateurs domotique Somfy
+
+### 4. Visonic PowerMaster
+
+- **Points forts** : fiabilité pro, certification NF&A2P
+- **Points faibles** : app moins intuitive
+- **Prix kit complet** : 600 à 1 300€
+- **Idéal pour** : les professionnels et exigeants
+
+### 5. Ring Alarm
+
+- **Points forts** : prix agressif, intégration Amazon
+- **Points faibles** : cloud obligatoire, pas NF&A2P
+- **Prix kit complet** : 200 à 500€
+- **Idéal pour** : les petits budgets
+
+## Configuration type pour une maison
+
+### Maison de 100m² sur 2 niveaux
+
+| Équipement | Quantité | Utilité |
+|------------|----------|---------|
+| Centrale/Sirène | 1 | Cerveau du système |
+| Clavier tactile | 1-2 | Armement/Désarmement |
+| Détecteurs d'ouverture | 6-8 | Portes + fenêtres RDC |
+| Détecteurs de mouvement | 3-4 | Pièces principales |
+| Détecteur extérieur | 1-2 | Jardin/Terrasse |
+| Télécommande | 2-4 | Par membre du foyer |
+| Sirène extérieure | 1 | Dissuasion |
+
+**Budget estimé** : 600 à 1 200€ (hors installation)
+
+## L'installation : DIY ou professionnel ?
+
+### Installation par vous-même
+
+**Avantages** :
+- Économie sur la main d'œuvre
+- Flexibilité totale
+- Satisfaction personnelle
+
+**Inconvénients** :
+- Risque d'erreur de configuration
+- Pas de garantie sur l'installation
+- Moins de conseil personnalisé
+
+### Installation professionnelle
+
+**Avantages** :
+- Configuration optimale
+- Conformité assurance
+- SAV et maintenance
+- Conseils d'expert
+
+**Coût moyen** : 200 à 500€ selon la complexité
+
+## Les assurances et les alarmes
+
+### Réductions sur votre prime
+
+Une alarme certifiée NF&A2P peut vous faire bénéficier de réductions :
+
+- **5 à 15%** sur la prime habitation
+- **Conditions** : installation par un professionnel agréé
+- **Attestation** : certificat d'installation à fournir
+
+### Exigences des assureurs
+
+Pour les biens de valeur, certains assureurs exigent :
+
+- Alarme avec télésurveillance
+- Certification NF&A2P minimum Bouclier 2
+- Maintenance annuelle attestée
+
+## Conclusion
+
+Le choix d'une alarme sans fil dépend de vos besoins, de votre budget et de votre niveau technique. Pour une protection optimale, nous recommandons de faire appel à un professionnel comme HD Connect qui saura vous conseiller et installer votre système dans les règles de l'art.
+
+**Demandez votre étude personnalisée gratuite !**
+    `,
+    category: "alarme",
+    tags: ["alarme", "sans fil", "maison", "comparatif", "guide", "2026", "NF&A2P"],
+    author: "HD Connect",
+    publishedAt: "2026-01-18",
+    updatedAt: "2026-01-18",
+    readingTime: 10,
+    featured: true,
+    image: blogAlarmeMaisonGuide,
+    seoTitle: "Alarme Maison Sans Fil 2026 : Comparatif et Guide d'Achat | HD Connect",
+    seoDescription: "Guide achat alarme maison sans fil 2026 : comparatif Diagral, Ajax, Somfy. Critères de choix, certifications NF&A2P, prix. Devis gratuit HD Connect."
+  },
+  {
+    id: "9",
+    slug: "controle-acces-entreprise-solutions-2026",
+    title: "Contrôle d'Accès Entreprise : Les Meilleures Solutions 2026",
+    excerpt: "Badge, biométrie, smartphone... Quelle solution de contrôle d'accès choisir pour votre entreprise en 2026 ? Analyse complète des technologies et conseils de mise en œuvre.",
+    content: `
+## Le contrôle d'accès : un enjeu stratégique pour l'entreprise
+
+En 2026, le contrôle d'accès n'est plus une option mais une nécessité pour les entreprises. Au-delà de la sécurité, il permet de gérer les flux, de tracer les entrées/sorties et de se conformer aux réglementations.
+
+## Les différentes technologies de contrôle d'accès
+
+### 1. Le badge RFID/NFC
+
+La solution la plus répandue en entreprise :
+
+**Technologies disponibles** :
+- **125 kHz (Proximity)** : basique, facilement clonable
+- **13,56 MHz (MIFARE)** : sécurisé, chiffré
+- **NFC/DESFIRE** : très sécurisé, multifonction
+
+**Avantages** :
+- Simple à déployer et utiliser
+- Coût maîtrisé (2 à 10€/badge)
+- Gestion centralisée facile
+
+**Inconvénients** :
+- Badge perdu ou prêté
+- Pas d'identification certaine de la personne
+
+**Recommandation** : optez pour MIFARE DESFire EV3 pour une sécurité optimale.
+
+### 2. La biométrie
+
+L'authentification par caractéristiques physiques :
+
+| Technologie | Précision | Vitesse | Coût lecteur |
+|-------------|-----------|---------|--------------|
+| Empreinte digitale | 99,9% | 0,5s | 200-800€ |
+| Reconnaissance faciale | 99,5% | 0,3s | 500-2000€ |
+| Reconnaissance veineuse | 99,99% | 1s | 1000-3000€ |
+| Iris | 99,99% | 1s | 2000-5000€ |
+
+**Avantages** :
+- Identification certaine de la personne
+- Impossible de prêter ou perdre
+- Effet dissuasif fort
+
+**Inconvénients** :
+- Coût plus élevé
+- Contraintes RGPD renforcées
+- Acceptation des salariés à travailler
+
+### 3. Le smartphone (Mobile Access)
+
+La tendance forte de 2026 :
+
+**Technologies** :
+- **Bluetooth Low Energy (BLE)** : portée 10m
+- **NFC** : contact direct
+- **QR Code** : solution économique
+
+**Avantages** :
+- Pas de badge supplémentaire à gérer
+- Mise à jour des droits instantanée
+- Identifiant unique par appareil
+- Intégration avec l'agenda/RH
+
+**Inconvénients** :
+- Dépendant de la batterie du téléphone
+- Nécessite un smartphone professionnel ou BYOD
+- Cybersécurité à renforcer
+
+### 4. Le code PIN
+
+Toujours utilisé en complément :
+
+**Usage recommandé** :
+- Double authentification (badge + code)
+- Accès zones sensibles
+- Solution de secours
+
+**Limites** :
+- Code partageable
+- Observation possible (shoulder surfing)
+- Usure des touches révélatrice
+
+## Quelle solution pour quel besoin ?
+
+### PME (10-50 salariés)
+
+**Solution recommandée** : Badge MIFARE + Mobile Access
+
+- Lecteurs badge aux entrées principales
+- Application mobile pour les managers
+- Budget : 2 000 à 8 000€
+
+### ETI (50-250 salariés)
+
+**Solution recommandée** : Badge + Biométrie zones sensibles
+
+- Badge MIFARE pour tous
+- Biométrie (empreinte) pour zones critiques
+- Gestion centralisée avec logiciel dédié
+- Budget : 10 000 à 35 000€
+
+### Grande entreprise (250+ salariés)
+
+**Solution recommandée** : Multi-technologie intégrée
+
+- Badge sécurisé + Mobile Access généralisé
+- Biométrie multi-facteurs zones haute sécurité
+- Intégration SIRH/Active Directory
+- Anti-passback et gestion des visiteurs
+- Budget : 50 000€ et plus
+
+## Les fonctionnalités essentielles
+
+### Gestion des droits
+
+- **Profils par groupe** : RH, direction, production...
+- **Plages horaires** : accès 8h-20h par exemple
+- **Zones géographiques** : bâtiment A, étage 3...
+- **Validité temporaire** : stagiaires, intérimaires...
+
+### Traçabilité
+
+- **Historique des passages** : qui, quand, où
+- **Rapports automatiques** : présence, pointage
+- **Alertes en temps réel** : tentatives refusées
+- **Export données** : conformité légale
+
+### Sécurité avancée
+
+- **Anti-passback** : empêche le prêt de badge
+- **Double authentification** : badge + code/biométrie
+- **Verrouillage automatique** : après tentatives échouées
+- **Mode dégradé** : fonctionnement en cas de panne réseau
+
+## Conformité RGPD pour la biométrie
+
+### Obligations légales
+
+La CNIL encadre strictement l'usage de la biométrie en entreprise :
+
+1. **Analyse d'impact (AIPD)** : obligatoire avant déploiement
+2. **Information des salariés** : notice détaillée
+3. **Consultation CSE** : obligatoire
+4. **Consentement** : nécessaire sauf exception
+5. **Stockage local** : privilégier le badge
+
+### Bonnes pratiques
+
+- Privilégiez le stockage du gabarit biométrique sur le badge (pas dans une base centrale)
+- Proposez une alternative au biométrique
+- Documentez la nécessité et la proportionnalité
+- Formez les administrateurs
+
+## L'installation par HD Connect
+
+### Notre processus
+
+1. **Audit gratuit** : analyse de vos besoins et contraintes
+2. **Étude technique** : plan d'implantation détaillé
+3. **Proposition** : devis transparent et options
+4. **Installation** : techniciens certifiés
+5. **Formation** : prise en main du logiciel
+6. **Maintenance** : contrat sur mesure
+
+### Nos garanties
+
+- Installation sous 2 semaines
+- Garantie 2 ans pièces et main d'œuvre
+- Hotline technique prioritaire
+- Mises à jour logicielles incluses
+
+## Conclusion
+
+Le choix d'un système de contrôle d'accès impacte directement la sécurité et l'organisation de votre entreprise. HD Connect vous accompagne de l'étude à la maintenance pour une solution parfaitement adaptée à vos enjeux.
+
+**Contactez-nous pour un audit gratuit de vos besoins !**
+    `,
+    category: "controle-acces",
+    tags: ["contrôle d'accès", "entreprise", "badge", "biométrie", "smartphone", "RGPD", "2026"],
+    author: "HD Connect",
+    publishedAt: "2026-01-15",
+    updatedAt: "2026-01-15",
+    readingTime: 11,
+    featured: true,
+    image: blogControleAccesEntreprise,
+    seoTitle: "Contrôle d'Accès Entreprise 2026 : Badge, Biométrie, Mobile | HD Connect",
+    seoDescription: "Solutions contrôle d'accès entreprise 2026 : badge RFID, biométrie, mobile access. Comparatif, conformité RGPD, installation. Audit gratuit HD Connect."
+  },
+  {
+    id: "10",
+    slug: "nvr-enregistreur-video-surveillance-guide-pro",
+    title: "NVR Enregistreur Vidéosurveillance : Guide Professionnel 2026",
+    excerpt: "Comment choisir et configurer votre NVR pour un système de vidéosurveillance performant ? Capacités, stockage, redondance : le guide expert pour les pros.",
+    content: `
+## Qu'est-ce qu'un NVR et pourquoi est-il essentiel ?
+
+Le NVR (Network Video Recorder) est le cerveau de votre système de vidéosurveillance IP. Contrairement au DVR analogique, il gère des caméras réseau haute définition et offre des fonctionnalités avancées indispensables en 2026.
+
+## NVR vs DVR : les différences clés
+
+| Critère | DVR | NVR |
+|---------|-----|-----|
+| Type de caméras | Analogiques (coax) | IP (réseau) |
+| Résolution max | 1080p | 4K/8K |
+| Câblage | Coaxial | Ethernet (PoE) |
+| Encodage | Dans le DVR | Dans la caméra |
+| Flexibilité | Limitée | Élevée |
+| Prix | Plus bas | Variable |
+
+**En 2026, le NVR est le standard** pour toute installation professionnelle ou haut de gamme.
+
+## Les critères de choix d'un NVR
+
+### 1. Nombre de canaux
+
+Combien de caméras pouvez-vous connecter ?
+
+| Canaux | Usage type | Prix indicatif |
+|--------|-----------|---------------|
+| 4 | Petit commerce, maison | 100-300€ |
+| 8 | PME, entrepôt | 200-500€ |
+| 16 | Site industriel | 400-1000€ |
+| 32+ | Multi-sites, sécurité renforcée | 1000€+ |
+
+**Conseil** : prévoyez toujours 30% de canaux supplémentaires pour l'évolution.
+
+### 2. Résolution supportée
+
+Les NVR modernes doivent gérer :
+
+- **4K (8MP)** : minimum recommandé en 2026
+- **12MP** : idéal pour les grandes zones
+- **4K avec IA** : détection intelligente embarquée
+
+### 3. Débit d'enregistrement
+
+Le débit total détermine la qualité en enregistrement simultané :
+
+| Débit entrant | Capacité type |
+|---------------|---------------|
+| 80 Mbps | 8 caméras 4K basique |
+| 160 Mbps | 16 caméras 4K |
+| 320 Mbps | 32 caméras 4K ou 16 caméras 4K+ |
+
+### 4. Capacité de stockage
+
+Le calcul du stockage nécessaire :
+
+**Formule** : Nb caméras × Débit × Heures × Jours / 1000
+
+**Exemple** pour 8 caméras 4K, 15 jours de rétention :
+- 8 × 8 Mbps × 24h × 15j / 1000 = 23 To
+
+**Recommandations** :
+- 2 baies HDD minimum (redondance)
+- Disques surveillance (WD Purple, Seagate SkyHawk)
+- RAID 1 ou 5 pour la sécurité des données
+
+### 5. Fonctionnalités IA
+
+Les NVR 2026 intègrent l'intelligence artificielle :
+
+- **Détection humaine/véhicule** : réduction des fausses alertes de 95%
+- **Reconnaissance faciale** : identification des personnes autorisées
+- **Détection d'intrusion périmétrique** : franchissement de ligne virtuelle
+- **Comptage de personnes** : analyse de fréquentation
+- **Détection d'anomalies** : comportement suspect
+
+## Architecture réseau optimale
+
+### Configuration basique
+
+**Schéma** : Caméras PoE → Switch PoE → NVR → Écran monitoring → Routeur → Accès distant
+
+### Configuration professionnelle
+
+**Schéma multi-zones** : Caméras PoE (Zones A/B/C) → Switchs PoE dédiés → Switch cœur → NVR Principal + NVR Backup → Serveur NAS → Poste supervision + Accès distant
+
+## Installation et configuration
+
+### Étape 1 : Préparation réseau
+
+1. Segmentez le réseau vidéosurveillance (VLAN dédié)
+2. Prévoyez la bande passante nécessaire
+3. Sécurisez les accès (firewall, VPN)
+
+### Étape 2 : Installation physique
+
+1. Montez le NVR en baie 19" ou sur étagère ventilée
+2. Installez les disques durs (attention à l'antistatique)
+3. Connectez le réseau et l'alimentation
+4. Branchez un écran pour la configuration initiale
+
+### Étape 3 : Configuration système
+
+1. Modifiez le mot de passe administrateur (OBLIGATOIRE)
+2. Configurez l'adresse IP fixe
+3. Réglez la date/heure (serveur NTP recommandé)
+4. Activez le chiffrement HTTPS
+
+### Étape 4 : Ajout des caméras
+
+1. Connectez les caméras au réseau
+2. Le NVR les détecte automatiquement (ONVIF)
+3. Ajoutez-les avec leurs identifiants
+4. Configurez la qualité d'enregistrement par caméra
+
+### Étape 5 : Paramètres d'enregistrement
+
+| Mode | Usage | Espace disque |
+|------|-------|---------------|
+| Continu 24/7 | Sécurité maximale | Très élevé |
+| Détection mouvement | Standard | Modéré |
+| Planifié | Heures d'ouverture | Faible |
+| Événement IA | Alertes intelligentes | Très faible |
+
+### Étape 6 : Accès distant
+
+1. Configurez le P2P cloud ou le DDNS
+2. Ouvrez les ports nécessaires (sécurisé)
+3. Installez l'application mobile
+4. Testez depuis un réseau externe
+
+## Maintenance et bonnes pratiques
+
+### Maintenance préventive
+
+- **Mensuel** : vérification des enregistrements, espace disque
+- **Trimestriel** : mise à jour firmware, test des alertes
+- **Annuel** : vérification hardware, nettoyage, test restauration
+
+### Sauvegarde des données
+
+- Exportez les événements importants
+- Configurez la sauvegarde automatique sur NAS
+- Testez régulièrement la restauration
+
+### Cybersécurité
+
+- Changez les mots de passe régulièrement
+- Désactivez les services inutiles (Telnet, UPnP)
+- Surveillez les tentatives de connexion échouées
+- Mettez à jour le firmware dès que disponible
+
+## HD Connect : votre partenaire NVR
+
+Nous installons et maintenons des systèmes NVR pour tous types de clients :
+
+- **Audit** de votre besoin et dimensionnement
+- **Fourniture** de matériel professionnel garanti
+- **Installation** par techniciens certifiés
+- **Formation** de vos équipes
+- **Maintenance** préventive et curative
+
+**Contactez-nous pour un devis personnalisé !**
+    `,
+    category: "videosurveillance",
+    tags: ["NVR", "enregistreur", "vidéosurveillance", "professionnel", "stockage", "réseau", "2026"],
+    author: "HD Connect",
+    publishedAt: "2026-01-12",
+    updatedAt: "2026-01-12",
+    readingTime: 13,
+    featured: false,
+    image: blogNvrInstallationPro,
+    seoTitle: "NVR Enregistreur Vidéosurveillance Pro : Guide Complet 2026 | HD Connect",
+    seoDescription: "Guide professionnel NVR 2026 : choix, dimensionnement, configuration, stockage. Tout pour votre système vidéosurveillance. Installation HD Connect."
+  },
+  {
+    id: "11",
+    slug: "securite-commerce-boutique-solutions-antivol-2026",
+    title: "Sécurité Commerce et Boutique : Solutions Antivol et Vidéosurveillance 2026",
+    excerpt: "Comment protéger efficacement votre commerce contre le vol et les agressions ? Portiques antivol, vidéosurveillance, alarme : toutes les solutions pour les commerçants.",
+    content: `
+## La démarque inconnue : un fléau pour les commerçants
+
+En France, la démarque inconnue représente en moyenne **1,4% du chiffre d'affaires** des commerces. Pour une boutique réalisant 500 000€ annuels, c'est 7 000€ de pertes ! Investir dans la sécurité est rentable.
+
+## Les différents types de menaces
+
+### Le vol à l'étalage
+
+- **70% des pertes** en commerce de détail
+- Profils variés : occasionnels, récidivistes, bandes organisées
+- Pics : weekends, soldes, fêtes
+
+### Le vol interne
+
+- **30% des pertes** souvent sous-estimées
+- Détournement de marchandises, caisse
+- Plus difficile à détecter
+
+### Les agressions
+
+- En augmentation ces dernières années
+- Cibles : caisses, bijouteries, tabacs
+- Nécessite des solutions spécifiques
+
+## Les solutions de protection
+
+### 1. Les portiques antivol (EAS)
+
+**Technologie électromagnétique (EM)**
+- Idéal pour : bibliothèques, librairies
+- Avantage : étiquettes réutilisables
+- Inconvénient : portée limitée
+
+**Technologie acousto-magnétique (AM)**
+- Idéal pour : mode, sport, cosmétique
+- Avantage : excellente détection
+- Inconvénient : coût des consommables
+
+**Technologie radiofréquence (RF)**
+- Idéal pour : grande distribution, textile
+- Avantage : étiquettes souples économiques
+- Inconvénient : sensibilité aux interférences
+
+**RFID (évolution 2026)**
+- Idéal pour : retail connecté, inventaire temps réel
+- Avantage : multifonction (antivol + stock)
+- Inconvénient : investissement initial
+
+| Technologie | Coût portique | Coût étiquette | Détection |
+|-------------|---------------|----------------|-----------|
+| EM | 1 500-3 000€ | Réutilisable | 90% |
+| AM | 2 500-4 500€ | 0,08-0,15€ | 95% |
+| RF | 1 200-2 500€ | 0,03-0,08€ | 85% |
+| RFID | 3 000-6 000€ | 0,10-0,30€ | 98% |
+
+### 2. La vidéosurveillance commerciale
+
+**Caméras dôme PTZ**
+- Couverture 360° motorisée
+- Zoom optique x30
+- Idéal pour grandes surfaces
+
+**Caméras bullet**
+- Effet dissuasif visible
+- Vision nocturne longue portée
+- Extérieur et parking
+
+**Caméras comptage**
+- Analyse de fréquentation
+- Optimisation des plannings
+- Données marketing
+
+**Caméras IA 2026**
+- Détection comportement suspect
+- Reconnaissance des gestes de vol
+- Alertes temps réel
+
+### 3. Les systèmes d'alarme commerce
+
+**Alarme anti-intrusion**
+- Détecteurs de mouvement volumétriques
+- Contacts d'ouverture sur accès
+- Sirène intérieure et extérieure
+- Transmetteur GSM/IP
+
+**Alarme anti-agression**
+- Bouton panique discret (caisse, bureau)
+- Transmission silencieuse aux forces de l'ordre
+- Déclenchement vidéo associé
+
+**Alarme brouillard**
+- Générateur de brouillard opaque
+- Aveugle l'intrus en quelques secondes
+- Très efficace contre les braquages
+
+### 4. Le contrôle d'accès
+
+**Gestion des réserves**
+- Lecteur badge sur stockage
+- Historique des accès
+- Limitation aux autorisés
+
+**Sas d'entrée**
+- Boutiques de luxe, bijouteries
+- Verrouillage si alerte
+- Caméra d'identification
+
+## Solution complète pour une boutique type
+
+### Boutique mode 100m² (centre-ville)
+
+| Équipement | Quantité | Budget |
+|------------|----------|--------|
+| Portiques AM entrée | 2 | 3 500€ |
+| Caméras dôme intérieur | 4 | 1 200€ |
+| Caméra extérieur | 1 | 400€ |
+| NVR 8 voies | 1 | 350€ |
+| Alarme + détecteurs | 1 kit | 800€ |
+| Bouton panique | 2 | 150€ |
+| **Installation** | - | 1 500€ |
+| **TOTAL** | | **7 900€** |
+
+**ROI estimé** : moins de 2 ans avec réduction démarque
+
+### Commerce alimentaire 300m²
+
+| Équipement | Quantité | Budget |
+|------------|----------|--------|
+| Portiques RF (larges) | 2 | 4 000€ |
+| Caméras IP 4K | 8 | 3 200€ |
+| Caméras frigorifiques | 2 | 1 000€ |
+| NVR 16 voies IA | 1 | 800€ |
+| Alarme + détecteurs | 1 kit | 1 200€ |
+| Contrôle accès réserve | 1 | 600€ |
+| **Installation** | - | 3 000€ |
+| **TOTAL** | | **13 800€** |
+
+## Obligations légales du commerçant
+
+### Vidéosurveillance
+
+- **Autorisation préfectorale** : obligatoire si vue sur voie publique
+- **Affichage** : panneau visible à l'entrée
+- **Conservation** : 30 jours maximum
+- **Accès** : uniquement personnes habilitées
+
+### Données clients
+
+- Pas de reconnaissance faciale sans consentement
+- Pas de fichage des clients
+- Droit d'accès aux images sur demande
+
+### Salariés
+
+- Information et consultation CSE
+- Pas de surveillance individuelle permanente
+- Registre des accès obligatoire
+
+## L'accompagnement HD Connect
+
+### Notre expertise commerce
+
+Depuis 2010, nous équipons tous types de commerces :
+- Boutiques de mode et accessoires
+- Bijouteries et horlogeries
+- Commerces alimentaires
+- Grandes surfaces spécialisées
+- Pharmacies et parapharmacies
+
+### Notre offre clé en main
+
+1. **Audit gratuit** sur site
+2. **Étude personnalisée** avec plan d'implantation
+3. **Installation** en dehors des heures d'ouverture
+4. **Formation** du personnel
+5. **Maintenance** avec intervention rapide
+
+**Demandez votre audit sécurité gratuit !**
+    `,
+    category: "conseils",
+    tags: ["commerce", "boutique", "antivol", "vidéosurveillance", "EAS", "démarque", "2026"],
+    author: "HD Connect",
+    publishedAt: "2026-01-10",
+    updatedAt: "2026-01-10",
+    readingTime: 12,
+    featured: false,
+    image: blogSecuriteCommerce,
+    seoTitle: "Sécurité Commerce Boutique 2026 : Antivol, Vidéosurveillance | HD Connect",
+    seoDescription: "Solutions sécurité commerce 2026 : portiques antivol EAS, vidéosurveillance, alarme. Guide complet pour commerçants. Audit gratuit HD Connect."
+  },
+  // ===== ARTICLES EXISTANTS =====
   {
     id: "1",
     slug: "comment-choisir-camera-surveillance-2025-2026",
