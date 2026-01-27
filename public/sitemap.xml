@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- ========================================== -->
   <!-- SITEMAP HD CONNECT                         -->
-  <!-- Dernière mise à jour: 26 Janvier 2026     -->
-  <!-- Total URLs: 122                           -->
+  <!-- Dernière mise à jour: 27 Janvier 2026     -->
+  <!-- Total URLs: 157                           -->
   <!-- ==========================================  -->
 
   <!-- ========================================== -->
@@ -445,27 +445,68 @@
     <priority>0.7</priority>
   </url>
   
-  <!-- Bourgogne-Franche-Comté (1 ville) -->
-  <url>
-    <loc>https://hdconnect.fr/villes/dijon</loc>
-    <lastmod>2026-01-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Bourgogne-Franche-Comté (3 villes) -->
+  <url><loc>https://hdconnect.fr/villes/dijon</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/besancon</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/chalon-sur-saone</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   
   <!-- Centre-Val de Loire (2 villes) -->
-  <url>
-    <loc>https://hdconnect.fr/villes/orleans</loc>
-    <lastmod>2026-01-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hdconnect.fr/villes/tours</loc>
-    <lastmod>2026-01-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <url><loc>https://hdconnect.fr/villes/orleans</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/tours</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ========================================== -->
+  <!-- NOUVELLES VILLES AJOUTÉES (35 villes)     -->
+  <!-- ========================================== -->
+  
+  <!-- Grand Est supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/reims</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/mulhouse</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/colmar</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/troyes</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Hauts-de-France supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/roubaix</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/tourcoing</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/dunkerque</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- PACA supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/toulon</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/antibes</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/avignon</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Auvergne-Rhône-Alpes supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/villeurbanne</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/clermont-ferrand</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/annecy</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/chambery</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Occitanie supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/nimes</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/perpignan</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/beziers</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Nouvelle-Aquitaine supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/limoges</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/poitiers</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/pau</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/bayonne</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Pays de la Loire supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/le-mans</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/saint-nazaire</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Bretagne supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/lorient</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/vannes</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/quimper</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Normandie supplémentaires -->
+  <url><loc>https://hdconnect.fr/villes/caen</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/cherbourg-en-cotentin</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Corse -->
+  <url><loc>https://hdconnect.fr/villes/ajaccio</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/bastia</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- ========================================== -->
   <!-- BLOG (7 pages)                            -->

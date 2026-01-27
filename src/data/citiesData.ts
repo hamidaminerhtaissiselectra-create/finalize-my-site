@@ -589,6 +589,402 @@ export const citiesData: CityData[] = [
     description: "HD Connect Tours : expert sécurité Val de Loire. Protection châteaux, résidences, commerces. Vidéosurveillance discrète, alarmes.",
     neighborhoods: ["Vieux Tours", "Grammont", "Sanitas", "Deux-Lions", "Rabelais"],
     nearbyTowns: ["Saint-Cyr-sur-Loire", "Saint-Pierre-des-Corps", "Joué-lès-Tours", "La Riche", "Chambray-lès-Tours"]
+  },
+  // ===== NOUVELLES VILLES - EXTENSION NATIONALE =====
+  // HAUTS-DE-FRANCE
+  {
+    name: "Reims",
+    slug: "reims",
+    department: "Marne",
+    departmentCode: "51",
+    region: "Grand Est",
+    regionSlug: "grand-est",
+    population: "182 000",
+    description: "Expert sécurité Reims : HD Connect protège maisons de champagne, commerces et résidences. Vidéosurveillance, alarmes certifiées NF&A2P.",
+    neighborhoods: ["Centre-Ville", "Clairmarais", "Croix-Rouge", "Murigny", "Cormontreuil"],
+    nearbyTowns: ["Tinqueux", "Bétheny", "Cormontreuil", "Saint-Brice-Courcelles", "Épernay"]
+  },
+  {
+    name: "Roubaix",
+    slug: "roubaix",
+    department: "Nord",
+    departmentCode: "59",
+    region: "Hauts-de-France",
+    regionSlug: "hauts-de-france",
+    population: "98 000",
+    description: "Installation sécurité Roubaix par HD Connect. Protection commerces, entrepôts et résidences. Vidéosurveillance, alarmes anti-intrusion.",
+    neighborhoods: ["Centre-Ville", "Barbieux", "Nouveau Roubaix", "Pile", "Cul de Four"],
+    nearbyTowns: ["Tourcoing", "Croix", "Wattrelos", "Hem", "Lys-lez-Lannoy"]
+  },
+  {
+    name: "Tourcoing",
+    slug: "tourcoing",
+    department: "Nord",
+    departmentCode: "59",
+    region: "Hauts-de-France",
+    regionSlug: "hauts-de-france",
+    population: "98 000",
+    description: "HD Connect Tourcoing : expert sécurité métropole lilloise. Vidéosurveillance pour commerces, industries et particuliers du Nord.",
+    neighborhoods: ["Centre-Ville", "Virolois", "Croix-Rouge", "Blanc Seau", "La Marlière"],
+    nearbyTowns: ["Roubaix", "Mouvaux", "Neuville-en-Ferrain", "Halluin", "Bondues"]
+  },
+  {
+    name: "Dunkerque",
+    slug: "dunkerque",
+    department: "Nord",
+    departmentCode: "59",
+    region: "Hauts-de-France",
+    regionSlug: "hauts-de-france",
+    population: "88 000",
+    description: "Sécurité Dunkerque par HD Connect. Protection zones portuaires, industries et résidences. Caméras anti-corrosion, alarmes certifiées.",
+    neighborhoods: ["Centre-Ville", "Malo-les-Bains", "Rosendaël", "Petite-Synthe", "Saint-Pol-sur-Mer"],
+    nearbyTowns: ["Grande-Synthe", "Coudekerque-Branche", "Gravelines", "Leffrinckoucke", "Bray-Dunes"]
+  },
+  // PROVENCE-ALPES-CÔTE D'AZUR
+  {
+    name: "Toulon",
+    slug: "toulon",
+    department: "Var",
+    departmentCode: "83",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "178 000",
+    description: "Expert sécurité Toulon et base navale. HD Connect installe vidéosurveillance marine, alarmes pour résidences et commerces varois.",
+    neighborhoods: ["Centre-Ville", "Mourillon", "Cap Brun", "La Serinette", "Le Jonquet"],
+    nearbyTowns: ["La Seyne-sur-Mer", "Hyères", "Six-Fours-les-Plages", "La Garde", "Ollioules"]
+  },
+  {
+    name: "Antibes",
+    slug: "antibes",
+    department: "Alpes-Maritimes",
+    departmentCode: "06",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "74 000",
+    description: "Sécurité haut de gamme Antibes Juan-les-Pins. HD Connect protège villas, résidences de luxe et yachts. Discrétion garantie.",
+    neighborhoods: ["Vieil Antibes", "Juan-les-Pins", "Cap d'Antibes", "La Fontonne", "Les Semboules"],
+    nearbyTowns: ["Cannes", "Vallauris", "Biot", "Villeneuve-Loubet", "Cagnes-sur-Mer"]
+  },
+  {
+    name: "Avignon",
+    slug: "avignon",
+    department: "Vaucluse",
+    departmentCode: "84",
+    region: "Provence-Alpes-Côte d'Azur",
+    regionSlug: "provence-alpes-cote-d-azur",
+    population: "92 000",
+    description: "HD Connect Avignon : sécurité pour commerces intra-muros et résidences. Protection patrimoine, vidéosurveillance discrète.",
+    neighborhoods: ["Intra-Muros", "Rocade", "Montfavet", "Le Pontet", "Courtine"],
+    nearbyTowns: ["Le Pontet", "Villeneuve-lès-Avignon", "Vedène", "Morières-lès-Avignon", "Sorgues"]
+  },
+  // AUVERGNE-RHÔNE-ALPES
+  {
+    name: "Villeurbanne",
+    slug: "villeurbanne",
+    department: "Rhône",
+    departmentCode: "69",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "155 000",
+    description: "Installation sécurité Villeurbanne par HD Connect. Protection campus universitaires, entreprises et résidences. Intervention rapide 69.",
+    neighborhoods: ["Gratte-Ciel", "Tonkin", "Cusset", "Charpennes", "La Doua"],
+    nearbyTowns: ["Lyon", "Vaulx-en-Velin", "Bron", "Décines-Charpieu", "Caluire-et-Cuire"]
+  },
+  {
+    name: "Clermont-Ferrand",
+    slug: "clermont-ferrand",
+    department: "Puy-de-Dôme",
+    departmentCode: "63",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "147 000",
+    description: "HD Connect Clermont-Ferrand : expert sécurité Auvergne. Vidéosurveillance industrielle Michelin, alarmes pour commerces et particuliers.",
+    neighborhoods: ["Centre Historique", "Montferrand", "La Pardieu", "Croix de Neyrat", "Jaude"],
+    nearbyTowns: ["Chamalières", "Royat", "Cournon-d'Auvergne", "Aubière", "Beaumont"]
+  },
+  {
+    name: "Annecy",
+    slug: "annecy",
+    department: "Haute-Savoie",
+    departmentCode: "74",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "130 000",
+    description: "Sécurité Annecy par HD Connect. Protection résidences de standing, commerces touristiques et entreprises. Vidéosurveillance lac.",
+    neighborhoods: ["Vieille Ville", "Novel", "Les Fins", "Meythet", "Cran-Gevrier"],
+    nearbyTowns: ["Seynod", "Cran-Gevrier", "Meythet", "Pringy", "Argonay"]
+  },
+  {
+    name: "Chambéry",
+    slug: "chambery",
+    department: "Savoie",
+    departmentCode: "73",
+    region: "Auvergne-Rhône-Alpes",
+    regionSlug: "auvergne-rhone-alpes",
+    population: "60 000",
+    description: "Expert sécurité Chambéry et Savoie. HD Connect protège stations de ski, commerces et résidences. Équipements adaptés montagne.",
+    neighborhoods: ["Centre-Ville", "Bissy", "Cognin", "Le Biollay", "Mérande"],
+    nearbyTowns: ["La Motte-Servolex", "Cognin", "Jacob-Bellecombette", "Barberaz", "Bassens"]
+  },
+  // OCCITANIE
+  {
+    name: "Nîmes",
+    slug: "nimes",
+    department: "Gard",
+    departmentCode: "30",
+    region: "Occitanie",
+    regionSlug: "occitanie",
+    population: "151 000",
+    description: "HD Connect Nîmes : sécurité pour commerces, arènes et patrimoine. Vidéosurveillance, alarmes adaptées climat méditerranéen.",
+    neighborhoods: ["Centre Historique", "Costières", "Pissevin", "Valdegour", "Mas de Mingue"],
+    nearbyTowns: ["Alès", "Marguerittes", "Milhaud", "Caissargues", "Bouillargues"]
+  },
+  {
+    name: "Perpignan",
+    slug: "perpignan",
+    department: "Pyrénées-Orientales",
+    departmentCode: "66",
+    region: "Occitanie",
+    regionSlug: "occitanie",
+    population: "121 000",
+    description: "Installation sécurité Perpignan par HD Connect. Protection commerces, résidences et exploitations agricoles. Intervention Pyrénées-Orientales.",
+    neighborhoods: ["Centre-Ville", "Saint-Jacques", "Le Vernet", "Moulin à Vent", "Mas Balande"],
+    nearbyTowns: ["Canet-en-Roussillon", "Saint-Estève", "Cabestany", "Rivesaltes", "Pia"]
+  },
+  {
+    name: "Béziers",
+    slug: "beziers",
+    department: "Hérault",
+    departmentCode: "34",
+    region: "Occitanie",
+    regionSlug: "occitanie",
+    population: "78 000",
+    description: "Sécurité Béziers par HD Connect. Protection vignobles, commerces et résidences. Vidéosurveillance, alarmes anti-intrusion certifiées.",
+    neighborhoods: ["Centre Historique", "La Devèze", "Montimaran", "Arènes", "Faubourg"],
+    nearbyTowns: ["Sérignan", "Villeneuve-lès-Béziers", "Cers", "Sauvian", "Boujan-sur-Libron"]
+  },
+  // NOUVELLE-AQUITAINE
+  {
+    name: "Limoges",
+    slug: "limoges",
+    department: "Haute-Vienne",
+    departmentCode: "87",
+    region: "Nouvelle-Aquitaine",
+    regionSlug: "nouvelle-aquitaine",
+    population: "132 000",
+    description: "HD Connect Limoges : expert sécurité Haute-Vienne. Protection industries porcelainières, commerces et résidences. Devis gratuit.",
+    neighborhoods: ["Centre-Ville", "Beaubreuil", "Val de l'Aurence", "La Bastide", "Landouge"],
+    nearbyTowns: ["Isle", "Panazol", "Le Palais-sur-Vienne", "Couzeix", "Feytiat"]
+  },
+  {
+    name: "Poitiers",
+    slug: "poitiers",
+    department: "Vienne",
+    departmentCode: "86",
+    region: "Nouvelle-Aquitaine",
+    regionSlug: "nouvelle-aquitaine",
+    population: "88 000",
+    description: "Installation sécurité Poitiers par HD Connect. Protection campus, commerces et patrimoine. Vidéosurveillance, alarmes étudiants.",
+    neighborhoods: ["Centre-Ville", "Beaulieu", "Les Couronneries", "Saint-Éloi", "Poitiers Ouest"],
+    nearbyTowns: ["Buxerolles", "Saint-Benoît", "Mignaloux-Beauvoir", "Chasseneuil-du-Poitou", "Biard"]
+  },
+  {
+    name: "Pau",
+    slug: "pau",
+    department: "Pyrénées-Atlantiques",
+    departmentCode: "64",
+    region: "Nouvelle-Aquitaine",
+    regionSlug: "nouvelle-aquitaine",
+    population: "78 000",
+    description: "Expert sécurité Pau et Béarn. HD Connect protège résidences, commerces et industries. Vidéosurveillance panoramique Pyrénées.",
+    neighborhoods: ["Centre-Ville", "Trespoey", "Ousse des Bois", "Saragosse", "Dufau"],
+    nearbyTowns: ["Billère", "Lons", "Jurançon", "Lescar", "Bizanos"]
+  },
+  {
+    name: "Bayonne",
+    slug: "bayonne",
+    department: "Pyrénées-Atlantiques",
+    departmentCode: "64",
+    region: "Nouvelle-Aquitaine",
+    regionSlug: "nouvelle-aquitaine",
+    population: "52 000",
+    description: "Sécurité Bayonne Côte Basque par HD Connect. Protection commerces, fêtes, résidences. Caméras adaptées environnement maritime.",
+    neighborhoods: ["Grand Bayonne", "Petit Bayonne", "Saint-Esprit", "Marracq", "Arènes"],
+    nearbyTowns: ["Anglet", "Biarritz", "Boucau", "Saint-Pierre-d'Irube", "Mouguerre"]
+  },
+  // PAYS DE LA LOIRE
+  {
+    name: "Le Mans",
+    slug: "le-mans",
+    department: "Sarthe",
+    departmentCode: "72",
+    region: "Pays de la Loire",
+    regionSlug: "pays-de-la-loire",
+    population: "144 000",
+    description: "HD Connect Le Mans : sécurité pour circuits, industries automobiles et résidences. Vidéosurveillance haute performance 24h.",
+    neighborhoods: ["Centre-Ville", "Coulaines", "Allonnes", "La Chapelle-Saint-Aubin", "Arnage"],
+    nearbyTowns: ["Coulaines", "Allonnes", "La Chapelle-Saint-Aubin", "Sargé-lès-Le-Mans", "Yvré-l'Évêque"]
+  },
+  {
+    name: "Saint-Nazaire",
+    slug: "saint-nazaire",
+    department: "Loire-Atlantique",
+    departmentCode: "44",
+    region: "Pays de la Loire",
+    regionSlug: "pays-de-la-loire",
+    population: "72 000",
+    description: "Expert sécurité Saint-Nazaire chantiers navals. HD Connect protège industries, zones portuaires et commerces. Caméras anti-corrosion.",
+    neighborhoods: ["Centre-Ville", "Méan-Penhoët", "Ville-Port", "La Bouletterie", "Kerlédé"],
+    nearbyTowns: ["Pornichet", "Trignac", "Montoir-de-Bretagne", "La Baule-Escoublac", "Guérande"]
+  },
+  // BRETAGNE
+  {
+    name: "Lorient",
+    slug: "lorient",
+    department: "Morbihan",
+    departmentCode: "56",
+    region: "Bretagne",
+    regionSlug: "bretagne",
+    population: "58 000",
+    description: "Installation sécurité Lorient par HD Connect. Protection bases nautiques, commerces et résidences. Vidéosurveillance maritime.",
+    neighborhoods: ["Centre-Ville", "Merville", "Keryado", "Keroman", "Nouvelle Ville"],
+    nearbyTowns: ["Lanester", "Hennebont", "Ploemeur", "Larmor-Plage", "Caudan"]
+  },
+  {
+    name: "Vannes",
+    slug: "vannes",
+    department: "Morbihan",
+    departmentCode: "56",
+    region: "Bretagne",
+    regionSlug: "bretagne",
+    population: "54 000",
+    description: "Sécurité Vannes par HD Connect. Protection vieille ville, commerces et résidences Golfe du Morbihan. Vidéosurveillance discrète.",
+    neighborhoods: ["Centre Historique", "Conleau", "Ménimur", "Kercado", "Tohannic"],
+    nearbyTowns: ["Séné", "Arradon", "Theix-Noyalo", "Sarzeau", "Grand-Champ"]
+  },
+  {
+    name: "Quimper",
+    slug: "quimper",
+    department: "Finistère",
+    departmentCode: "29",
+    region: "Bretagne",
+    regionSlug: "bretagne",
+    population: "64 000",
+    description: "HD Connect Quimper : expert sécurité Cornouaille. Protection commerces, industries faïencières et résidences. Devis gratuit.",
+    neighborhoods: ["Centre-Ville", "Penhars", "Ergué-Armel", "Kerfeunteun", "Locmaria"],
+    nearbyTowns: ["Ergué-Gabéric", "Pluguffan", "Plomelin", "Guengat", "Plogonnec"]
+  },
+  // NORMANDIE
+  {
+    name: "Caen",
+    slug: "caen",
+    department: "Calvados",
+    departmentCode: "14",
+    region: "Normandie",
+    regionSlug: "normandie",
+    population: "108 000",
+    description: "Expert sécurité Caen par HD Connect. Protection campus, commerces et patrimoine normand. Vidéosurveillance, alarmes certifiées.",
+    neighborhoods: ["Centre-Ville", "Beaulieu", "Folie Couvrechef", "Saint-Jean", "Vaucelles"],
+    nearbyTowns: ["Hérouville-Saint-Clair", "Mondeville", "Ifs", "Colombelles", "Blainville-sur-Orne"]
+  },
+  {
+    name: "Cherbourg-en-Cotentin",
+    slug: "cherbourg-en-cotentin",
+    department: "Manche",
+    departmentCode: "50",
+    region: "Normandie",
+    regionSlug: "normandie",
+    population: "80 000",
+    description: "Sécurité Cherbourg par HD Connect. Protection arsenaux, industries navales et commerces. Caméras résistantes environnement marin.",
+    neighborhoods: ["Centre-Ville", "Tourlaville", "Équeurdreville", "Querqueville", "La Glacerie"],
+    nearbyTowns: ["Tourlaville", "Équeurdreville-Hainneville", "Querqueville", "La Glacerie", "Bricquebec"]
+  },
+  // GRAND EST
+  {
+    name: "Mulhouse",
+    slug: "mulhouse",
+    department: "Haut-Rhin",
+    departmentCode: "68",
+    region: "Grand Est",
+    regionSlug: "grand-est",
+    population: "110 000",
+    description: "HD Connect Mulhouse : sécurité pour industries automobiles et chimiques. Vidéosurveillance, alarmes adaptées environnement industriel.",
+    neighborhoods: ["Centre-Ville", "Rebberg", "Dornach", "Bourtzwiller", "Illzach"],
+    nearbyTowns: ["Illzach", "Riedisheim", "Kingersheim", "Wittenheim", "Rixheim"]
+  },
+  {
+    name: "Colmar",
+    slug: "colmar",
+    department: "Haut-Rhin",
+    departmentCode: "68",
+    region: "Grand Est",
+    regionSlug: "grand-est",
+    population: "70 000",
+    description: "Installation sécurité Colmar par HD Connect. Protection vignobles, commerces touristiques et résidences alsaciennes. Devis gratuit.",
+    neighborhoods: ["Petite Venise", "Centre Historique", "Europe", "Florimont", "Maraîchers"],
+    nearbyTowns: ["Horbourg-Wihr", "Wintzenheim", "Ingersheim", "Turckheim", "Sainte-Croix-en-Plaine"]
+  },
+  {
+    name: "Troyes",
+    slug: "troyes",
+    department: "Aube",
+    departmentCode: "10",
+    region: "Grand Est",
+    regionSlug: "grand-est",
+    population: "62 000",
+    description: "Expert sécurité Troyes par HD Connect. Protection centres de marques, industries textiles et patrimoine. Vidéosurveillance discrète.",
+    neighborhoods: ["Centre Historique", "Sénardes", "Chartreux", "Jules Guesde", "Chapelle Saint-Luc"],
+    nearbyTowns: ["La Chapelle-Saint-Luc", "Sainte-Savine", "Saint-Julien-les-Villas", "Rosières-près-Troyes", "Pont-Sainte-Marie"]
+  },
+  // BOURGOGNE-FRANCHE-COMTÉ
+  {
+    name: "Besançon",
+    slug: "besancon",
+    department: "Doubs",
+    departmentCode: "25",
+    region: "Bourgogne-Franche-Comté",
+    regionSlug: "bourgogne-franche-comte",
+    population: "118 000",
+    description: "HD Connect Besançon : sécurité horlogère et microtechnique. Protection industries de précision, commerces et résidences.",
+    neighborhoods: ["La Boucle", "Battant", "Planoise", "Palente", "Chailluz"],
+    nearbyTowns: ["Thise", "École-Valentin", "Châtillon-le-Duc", "Miserey-Salines", "Pirey"]
+  },
+  {
+    name: "Chalon-sur-Saône",
+    slug: "chalon-sur-saone",
+    department: "Saône-et-Loire",
+    departmentCode: "71",
+    region: "Bourgogne-Franche-Comté",
+    regionSlug: "bourgogne-franche-comte",
+    population: "46 000",
+    description: "Sécurité Chalon-sur-Saône par HD Connect. Protection industries, commerces et vignobles bourguignons. Vidéosurveillance certifiée.",
+    neighborhoods: ["Centre-Ville", "Saint-Jean", "Plateau Saint-Jean", "Aubépins", "Prés Saint-Jean"],
+    nearbyTowns: ["Saint-Marcel", "Saint-Rémy", "Châtenoy-le-Royal", "Champforgeuil", "Lux"]
+  },
+  // CORSE
+  {
+    name: "Ajaccio",
+    slug: "ajaccio",
+    department: "Corse-du-Sud",
+    departmentCode: "2A",
+    region: "Corse",
+    regionSlug: "corse",
+    population: "72 000",
+    description: "Expert sécurité Ajaccio par HD Connect. Protection villas, commerces et hôtels corses. Vidéosurveillance adaptée climat méditerranéen.",
+    neighborhoods: ["Centre-Ville", "Mezzavia", "Les Cannes", "Saint-Jean", "Aspretto"],
+    nearbyTowns: ["Bastelicaccia", "Alata", "Appietto", "Villanova", "Sarrola-Carcopino"]
+  },
+  {
+    name: "Bastia",
+    slug: "bastia",
+    department: "Haute-Corse",
+    departmentCode: "2B",
+    region: "Corse",
+    regionSlug: "corse",
+    population: "48 000",
+    description: "Installation sécurité Bastia par HD Connect. Protection port, commerces et résidences. Vidéosurveillance maritime et urbaine.",
+    neighborhoods: ["Terra Vecchia", "Terra Nova", "Lupino", "Toga", "Paese Novu"],
+    nearbyTowns: ["Furiani", "Biguglia", "Ville-di-Pietrabugno", "San-Martino-di-Lota", "Borgo"]
   }
 ];
 
