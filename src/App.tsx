@@ -12,6 +12,7 @@ import Admin from "./pages/Admin";
 import LegalPage from "./pages/LegalPage";
 import ZonesIntervention from "./pages/ZonesIntervention";
 import CityPage from "./pages/villes/CityPage";
+import CityServiceDetailPage from "./pages/villes/CityServiceDetailPage";
 import RegionPage from "./pages/regions/RegionPage";
 import DepartmentPage from "./pages/departments/DepartmentPage";
 import ArrondissementPage from "./pages/paris/ArrondissementPage";
@@ -64,6 +65,9 @@ const App = () => (
           
           {/* Pages villes - Niveau 4 */}
           <Route path="/villes/:citySlug" element={<CityPage />} />
+          
+          {/* Pages ville + service - Niveau 5 (SEO local optimisé) */}
+          <Route path="/villes/:citySlug/:serviceSlug" element={<CityServiceDetailPage />} />
           
           {/* Page Paris principale - Hub des arrondissements */}
           <Route path="/villes/paris" element={<ParisPage />} />

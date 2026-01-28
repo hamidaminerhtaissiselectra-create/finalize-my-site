@@ -627,4 +627,291 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  
+  <!-- ========================================== -->
+  <!-- NIVEAU 5 - PAGES VILLE + SERVICE (SEO)    -->
+  <!-- URLs combinées pour le référencement local -->
+  <!-- Priorité: Villes à forte criminalité + services clés -->
+  <!-- ========================================== -->
+  <!-- PARIS - Services combinés -->
+  <url>
+    <loc>https://hdconnect.fr/villes/paris/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/paris/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/paris/controle-acces</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/paris/domotique</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- LYON - Services combinés -->
+  <url>
+    <loc>https://hdconnect.fr/villes/lyon/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/lyon/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/lyon/controle-acces</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- MARSEILLE - Services combinés -->
+  <url>
+    <loc>https://hdconnect.fr/villes/marseille/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/marseille/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/marseille/controle-acces</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- SAINT-DENIS 93 - Zone sensible prioritaire -->
+  <url>
+    <loc>https://hdconnect.fr/villes/saint-denis/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/saint-denis/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/saint-denis/controle-acces</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- BOBIGNY 93 - Zone sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/bobigny/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/bobigny/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- NICE 06 - Zone touristique sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/nice/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/nice/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- TOULOUSE - Grande métropole -->
+  <url>
+    <loc>https://hdconnect.fr/villes/toulouse/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/toulouse/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- BORDEAUX - Grande métropole -->
+  <url>
+    <loc>https://hdconnect.fr/villes/bordeaux/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/bordeaux/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- NANTES - Grande métropole -->
+  <url>
+    <loc>https://hdconnect.fr/villes/nantes/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/nantes/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- LILLE 59 - Zone Nord sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/lille/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/lille/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- STRASBOURG - Grande métropole -->
+  <url>
+    <loc>https://hdconnect.fr/villes/strasbourg/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/strasbourg/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- VENISSIEUX 69 - Zone sensible Lyon -->
+  <url>
+    <loc>https://hdconnect.fr/villes/venissieux/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/venissieux/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- AUBERVILLIERS 93 - Zone sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/aubervilliers/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/aubervilliers/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- MONTREUIL 93 - Zone sensible -->
+  <url>
+    <loc>https://hdconnect.fr/villes/montreuil/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/montreuil/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- CRETEIL 94 - Préfecture Val-de-Marne -->
+  <url>
+    <loc>https://hdconnect.fr/villes/creteil/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/creteil/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- VERSAILLES 78 - Préfecture Yvelines -->
+  <url>
+    <loc>https://hdconnect.fr/villes/versailles/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/versailles/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- BOULOGNE-BILLANCOURT 92 - Grande ville Ouest Paris -->
+  <url>
+    <loc>https://hdconnect.fr/villes/boulogne-billancourt/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/boulogne-billancourt/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <!-- AIX-EN-PROVENCE 13 - Ville PACA -->
+  <url>
+    <loc>https://hdconnect.fr/villes/aix-en-provence/videosurveillance</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://hdconnect.fr/villes/aix-en-provence/alarme</loc>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
 </urlset>

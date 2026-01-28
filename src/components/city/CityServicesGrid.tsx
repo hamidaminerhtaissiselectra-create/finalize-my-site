@@ -24,8 +24,9 @@ const CityServicesGrid = ({ city }: CityServicesGridProps) => {
     {
       icon: Camera,
       title: "Vidéosurveillance",
+      slug: "videosurveillance",
       description: `Caméras HD/4K avec IA à ${city.name}. Vision nocturne, accès mobile 24/7.`,
-      link: "/services/videosurveillance",
+      link: `/villes/${city.slug}/videosurveillance`,
       features: ["Caméras 4K", "IA intégrée", "Cloud sécurisé"],
       gradient: "from-blue-500/20 to-cyan-500/20",
       iconColor: "text-blue-500"
@@ -33,8 +34,9 @@ const CityServicesGrid = ({ city }: CityServicesGridProps) => {
     {
       icon: ShieldAlert,
       title: "Alarmes",
+      slug: "alarme",
       description: `Alarmes NF&A2P avec télésurveillance à ${city.name}.`,
-      link: "/services/alarme",
+      link: `/villes/${city.slug}/alarme`,
       features: ["Certifié NF&A2P", "Télésurveillance", "Sirène 110dB"],
       gradient: "from-red-500/20 to-orange-500/20",
       iconColor: "text-red-500"
@@ -42,8 +44,9 @@ const CityServicesGrid = ({ city }: CityServicesGridProps) => {
     {
       icon: Lock,
       title: "Contrôle d'Accès",
+      slug: "controle-acces",
       description: `Badges, biométrie et interphones vidéo à ${city.name}.`,
-      link: "/services/controle-acces",
+      link: `/villes/${city.slug}/controle-acces`,
       features: ["Biométrie", "RFID", "Gestion cloud"],
       gradient: "from-purple-500/20 to-pink-500/20",
       iconColor: "text-purple-500"
@@ -51,8 +54,9 @@ const CityServicesGrid = ({ city }: CityServicesGridProps) => {
     {
       icon: Home,
       title: "Domotique",
+      slug: "domotique",
       description: `Maison intelligente et automatisation à ${city.name}.`,
-      link: "/services/domotique",
+      link: `/villes/${city.slug}/domotique`,
       features: ["Éclairage", "Chauffage", "Scénarios"],
       gradient: "from-green-500/20 to-emerald-500/20",
       iconColor: "text-green-500"
@@ -60,8 +64,9 @@ const CityServicesGrid = ({ city }: CityServicesGridProps) => {
     {
       icon: Wifi,
       title: "Réseau",
+      slug: "reseau",
       description: `WiFi 6E, câblage Cat 6A et firewall à ${city.name}.`,
-      link: "/services/reseau",
+      link: `/villes/${city.slug}/reseau`,
       features: ["WiFi 6E", "Fibre", "Firewall"],
       gradient: "from-indigo-500/20 to-violet-500/20",
       iconColor: "text-indigo-500"
@@ -69,8 +74,9 @@ const CityServicesGrid = ({ city }: CityServicesGridProps) => {
     {
       icon: Wrench,
       title: "Maintenance",
+      slug: "maintenance",
       description: `Maintenance préventive et dépannage 24/7 à ${city.name}.`,
-      link: "/services/maintenance",
+      link: `/villes/${city.slug}/maintenance`,
       features: ["24/7", "Préventif", "Réactif"],
       gradient: "from-amber-500/20 to-yellow-500/20",
       iconColor: "text-amber-500"
@@ -78,8 +84,9 @@ const CityServicesGrid = ({ city }: CityServicesGridProps) => {
     {
       icon: Radio,
       title: "Antenne & Satellite",
+      slug: "antenne-satellite",
       description: `TNT, satellite et antennes collectives à ${city.name}.`,
-      link: "/services/antenne-satellite",
+      link: `/villes/${city.slug}/antenne-satellite`,
       features: ["TNT HD", "Satellite", "Collectif"],
       gradient: "from-teal-500/20 to-cyan-500/20",
       iconColor: "text-teal-500"
@@ -87,8 +94,9 @@ const CityServicesGrid = ({ city }: CityServicesGridProps) => {
     {
       icon: DoorOpen,
       title: "Portails & Parking",
+      slug: "portails-parking",
       description: `Motorisation et contrôle parking à ${city.name}.`,
-      link: "/services/portails-parking",
+      link: `/villes/${city.slug}/portails-parking`,
       features: ["Coulissant", "Battant", "Barrières"],
       gradient: "from-slate-500/20 to-gray-500/20",
       iconColor: "text-slate-500"
