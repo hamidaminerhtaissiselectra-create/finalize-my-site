@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- ========================================== -->
   <!-- SITEMAP HD CONNECT                         -->
-  <!-- Dernière mise à jour: 27 Janvier 2026     -->
-  <!-- Total URLs: 157                           -->
+  <!-- Dernière mise à jour: 28 Janvier 2026     -->
+  <!-- Total URLs: 197 (+40 villes zones sensibles) -->
   <!-- ==========================================  -->
 
   <!-- ========================================== -->
@@ -507,6 +507,64 @@
   <!-- Corse -->
   <url><loc>https://hdconnect.fr/villes/ajaccio</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://hdconnect.fr/villes/bastia</loc><lastmod>2026-01-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- ========================================== -->
+  <!-- ZONES SENSIBLES - CAMBRIOLAGES (40 villes) -->
+  <!-- ========================================== -->
+  
+  <!-- Seine-Saint-Denis (93) - Zone critique -->
+  <url><loc>https://hdconnect.fr/villes/bobigny</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/aubervilliers</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/aulnay-sous-bois</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/drancy</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/bondy</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/epinay-sur-seine</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/sevran</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/la-courneuve</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  
+  <!-- Essonne (91) - Zone sensible -->
+  <url><loc>https://hdconnect.fr/villes/corbeil-essonnes</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/grigny</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/savigny-sur-orge</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Val-d'Oise (95) - Zone sensible -->
+  <url><loc>https://hdconnect.fr/villes/sarcelles</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/garges-les-gonesse</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/goussainville</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Bouches-du-Rhône (13) - PACA critique -->
+  <url><loc>https://hdconnect.fr/villes/aubagne</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/vitrolles</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/marignane</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/la-ciotat</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/martigues</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Alpes-Maritimes (06) - Côte d'Azur critique -->
+  <url><loc>https://hdconnect.fr/villes/grasse</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/cagnes-sur-mer</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/menton</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Var (83) - Zone touristique sensible -->
+  <url><loc>https://hdconnect.fr/villes/frejus</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/hyeres</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/draguignan</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Nord (59) - Zone sensible -->
+  <url><loc>https://hdconnect.fr/villes/villeneuve-d-ascq</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Rhône (69) - Agglomération lyonnaise -->
+  <url><loc>https://hdconnect.fr/villes/venissieux</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/vaulx-en-velin</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://hdconnect.fr/villes/saint-priest</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Gironde (33) - Bordeaux Métropole -->
+  <url><loc>https://hdconnect.fr/villes/merignac</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/pessac</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/talence</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  
+  <!-- Haute-Garonne (31) - Toulouse Métropole -->
+  <url><loc>https://hdconnect.fr/villes/blagnac</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://hdconnect.fr/villes/colomiers</loc><lastmod>2026-01-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- ========================================== -->
   <!-- BLOG (7 pages)                            -->
